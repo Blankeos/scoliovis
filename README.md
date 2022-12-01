@@ -45,7 +45,7 @@ We trained a Keypoint RCNN model on the [SpineWeb Dataset 16](http://spineweb.di
 
 A live deployed version of the application is available at [scoliovis.app](https://scoliovis.app/).
 
-## Repositories
+## Source Repositories
 
 1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repo
 2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repo
