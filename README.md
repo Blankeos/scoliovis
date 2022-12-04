@@ -1,6 +1,6 @@
 # ScolioVis
 
-This is a compiled package of our undergraduate research for West Visayas State University - College of Information and Communications Technology entitled: "ScolioVis
+This is a compiled package of our undergraduate research for West Visayas State University - College of Information and Communications Technology entitled: "ScolioVis:
 Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN"
 
 ### About
@@ -33,5 +33,15 @@ on
 
 <br/>
 <br/>
+
+### Cite
+
+```
+@article{ScolioVis,
+  author = {Carlo Antonio Taleon, Glecy Elizalde, Christopher Joseph Rubinos},
+  title = {ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN},
+  year = {2022},
+}
+```
 
 2022 © Taleon, Elizalde, Rubinos (BSCS4A) - West Visayas State University - College of Information and Communications Technology. All Rights Reserved.
