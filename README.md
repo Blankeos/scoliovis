@@ -20,7 +20,7 @@ on
 
 1. [Dataset Preprocessing for Keypoint RCNN](https://colab.research.google.com/drive/1Rlt43PWo6NYREuDsGT8K5tRg5QqfFdVc?usp=sharing)
 1. [Keypoint RCNN Training](https://colab.research.google.com/drive/1aaTWt2rZ-M7YlqIus7aC-84SorjNwl8G?usp=sharing)
-1. [Cobb Angle Calculation](https://drive.google.com/file/d/1Cm32oftsMpsqMH5kLHgr0RtsfLAfiJnF/view?usp=sharing)
+1. [Cobb Angle Calculation](https://colab.research.google.com/drive/1Cm32oftsMpsqMH5kLHgr0RtsfLAfiJnF?usp=sharing)
 
 ### Models
 
