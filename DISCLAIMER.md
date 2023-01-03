@@ -1,4 +1,4 @@
-# Disclaimer
+# 🤝 Disclaimer
 
 This software project and its corresponding documentation entitled **_“ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN”_** is submitted to the College of Information and Communications Technology, West Visayas State University, in partial fulfillment of the requirements for the degree, **Bachelor of Science in Computer Science**. It is the product of our own work, except for the utilization of the [Spine Web Dataset 16: 609 spinal anterior-posterior x-ray images](http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets#Dataset_16.3A_609_spinal_anterior-posterior_x-ray_images). Any publication resulting from any use of this database must cite the following [paper](http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf):
 

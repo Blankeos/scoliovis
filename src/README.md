@@ -10,12 +10,13 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## Setup Instructions
 
-> You have two options here. You can either run the app on your machine or train a model from scratch the same way we did. For **evaluators** of this project, please refer to the first option. For **researchers** interested in improving upon our project, we recommend training a model from the beginning.
+> You have two options here. You can either run the app on your machine or train a model from scratch the same way we did. For **evaluators** of this project, please refer to the first option. For **researchers** interested in improving upon or recreating our project, we recommend training a model from the beginning, the same way we did.
 
 #### a. Run the project on your local machine.
 
 1. Make sure your local machine has installed the following requirements:
 
+   - [Git](https://git-scm.com/downloads)
    - [Node.js® v18.12.1 or higher](https://nodejs.org/en/)
    - [PNPM](https://pnpm.io/installation) `npm install --global pnpm`
    - [Python 3.9.6 or higher](https://www.python.org/downloads/)
@@ -42,22 +43,30 @@ The `src` directory contains code to build the software. Our code is split into 
    D:> cd scoliovis-api
 
    # 2. Create a virtual environment
-   D:\scoliovis-web> python -m venv venv
+   D:\scoliovis-api> python -m venv venv
 
    # 3. Activate virtual environment
    # - If you're on Windows Command Prompt
-   D:\scoliovis-web>venv\Scripts\activate
-   (venv) D:\scoliovis-web> # your cursor should look like this
+   D:\scoliovis-api>venv\Scripts\activate
+   (venv) D:\scoliovis-api> # your cursor should look like this
 
    # - If you're on Mac or Git Bash
-   /d/scoliovis-web> source venv/Scripts/activate
-   (venv) /d/scoliovis-web> # your cursor should look like this
+   /d/scoliovis-api> source venv/Scripts/activate
+   (venv) /d/scoliovis-api> # your cursor should look like this
 
    # 5. Install dependencies
    (venv) D:\scoliovis-web> pip install -r requirements.txt
 
    # 6. Run the server on http://localhost:8000
-   (venv) D:\scoliovis-web> uvicorn main:app
+   (venv) D:\scoliovis-api> uvicorn main:app
    ```
 
 #### b. Reproduce the project from scratch.
+
+1. Follow our instructions on training at [`scoliovis-training`](https://github.com/Blankeos/scoliovis-training)
+
+2. Save and rename the model to `keypointsrcnn_weights.pt`.
+
+3. Follow the steps for [running the project on your local machine](#a-run-the-project-on-your-local-machine). But don't run the backend server yet.
+
+4. Move `keypointsrcnn_weights.pt` to the `scoliovis-api/models/` directory.
