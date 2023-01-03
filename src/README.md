@@ -10,6 +10,8 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## Setup Instructions
 
+> You have two options here. You can either run the app on your machine or train a model from scratch the same way we did. For **evaluators** of this project, please refer to the first option. For **researchers** interested in improving upon our project, we recommend training a model from the beginning.
+
 #### a. Run the project on your local machine.
 
 1. Make sure your local machine has installed the following requirements:
