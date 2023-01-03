@@ -11,3 +11,7 @@ We hereby grant the College of Information and Communications Technology permiss
 The authors of this project and the College of Information and Communications Technology, West Visayas State University, make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability of the information contained in this project for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
 The information contained in the research is provided "as is" without warranty of any kind, either express or implied. In no event will the authors of this project or the College of Information and Communications Technology, West Visayas State University, be liable for any loss or damage, including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits, arising out of or in connection with the use of this project.
+
+## No License
+
+**ScolioVis** has no open-source license, hence we explicity state that this project, including the subrepositories: [`scoliovis-web`](https://github.com/Blankeos/scoliovis-web), [`scoliovis-api`](https://github.com/Blankeos/scoliovis-api), [`scoliovis-training`](https://github.com/Blankeos/scoliovis-training) are under **exclusive copyright** of the authors and the College of Information and Communications Technology, West Visayas State University by default. The source code is only publicly available for documentation purposes.
