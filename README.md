@@ -62,57 +62,9 @@ A live deployed version of the application is available at [scoliovis.app](https
 1. release/yolov5-detection.pt
 2. release/keypointsrcnn-weights.pt
 
-## Usage Instructions
+## Setup Instructions
 
-#### a. Run the project on your local machine.
-
-1. Make sure your local machine has installed the following requirements:
-
-   - [Node.js® v18.12.1 or higher](https://nodejs.org/en/)
-   - [PNPM](https://pnpm.io/installation) `npm install --global pnpm`
-   - [Python 3.9.6 or higher](https://www.python.org/downloads/)
-
-2. Setup the frontend: `scoliovis-web`
-
-   ```sh
-   # 1. Clone repo
-   D:> git clone https://github.com/blankeos/scoliovis-web.git
-   D:> cd scoliovis-web
-
-   # 2. Install dependencies
-   D:\scoliovis-web> pnpm install
-
-   # 3. Run the server on http://localhost:3000
-   D:\scoliovis-web> pnpm dev
-   ```
-
-3. Setup the backend `scoliovis-api`
-
-   ```sh
-   # 1. Clone repo
-   D:> git clone https://github.com/blankeos/scoliovis-api.git
-   D:> cd scoliovis-api
-
-   # 2. Create a virtual environment
-   D:\scoliovis-web> python -m venv venv
-
-   # 3. Activate virtual environment
-   # - If you're on Windows Command Prompt
-   D:\scoliovis-web>venv\Scripts\activate
-   (venv) D:\scoliovis-web> # your cursor should look like this
-
-   # - If you're on Mac or Git Bash
-   /d/scoliovis-web> source venv/Scripts/activate
-   (venv) /d/scoliovis-web> # your cursor should look like this
-
-   # 5. Install dependencies
-   (venv) D:\scoliovis-web> pip install -r requirements.txt
-
-   # 6. Run the server on http://localhost:8000
-   (venv) D:\scoliovis-web> uvicorn main:app
-   ```
-
-#### b. Reproduce the project from scratch.
+[Go to /src](/src)
 
 ## Important References
 
