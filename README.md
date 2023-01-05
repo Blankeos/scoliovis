@@ -64,7 +64,7 @@ A live deployed version of the application is available at [scoliovis.app](https
 
 ## Setup Instructions
 
-[Go to /src](/src)
+Go to [/src](/src) for instructions on how to setup the project on your machine.
 
 ## Important References
 
