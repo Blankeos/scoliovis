@@ -82,7 +82,7 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 
 ## Cite Our Project
 
-```
+```latex
 @article{ScolioVis,
   author = {Carlo Antonio Taleon, Glecy Elizalde, Christopher Joseph Rubinos},
   title = {ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN},
