@@ -4,15 +4,19 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## Source Repositories
 
-1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repo
-2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repo
-3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
+1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repository (NextJS, React, Typescript)
+2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository (FastAPI, PyTorch)
+3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository (Colab, PyTorch)
 
 ## Setup Instructions
 
-> You have two options here. You can either run the app on your machine or train a model from scratch the same way we did. For **evaluators** of this project, please refer to the first option. For **researchers** interested in improving upon or recreating our project, we recommend training a model from the beginning, the same way we did.
+You have 2 options for setting up the project:
 
-#### a. Run the project on your local machine.
+> a. For **Evaluators** of this project that only need to run the app, please refer to the first option.
+
+> b. For **Researchers** interested in improving upon or recreating our project, we recommend the second option to help you train the model from the beginning, the same way we did.
+
+### a. Run the project on your local machine.
 
 1. Make sure your local machine has installed the following requirements:
 
@@ -61,7 +65,7 @@ The `src` directory contains code to build the software. Our code is split into 
    (venv) D:\scoliovis-api> uvicorn main:app
    ```
 
-#### b. Reproduce the project from scratch.
+### b. Reproduce the project from scratch.
 
 1. Follow our instructions on training at [`scoliovis-training`](https://github.com/Blankeos/scoliovis-training)
 

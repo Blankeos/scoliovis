@@ -26,15 +26,13 @@ In this repo, you can:
 - [x] Try running our project locally.
 - [x] Recreate our research/project.
 
-## Contents of this Repository
+## Contents
 
 - [About](#about)
 - [Repositories](#repositories)
 - [Colab Notebooks](#colab-notebooks)
 - [Models](#models)
-- [Usage Instructions](#usage-instructions)
-  - Run the project on your local machine.
-  - Reproduce the project from scratch.
+- [Setup Instructions](#setup-instructions)
 - [Important References](#important-references)
 
 ## About
@@ -84,10 +82,12 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 
 ```bibtex
 @article{ScolioVis,
-  author = {Carlo Antonio Taleon, Glecy Elizalde, Christopher Joseph Rubinos},
+  author = {Taleon, Carlo Antonio and Elizalde, Glecy and Rubinos, Christopher Joseph},
   title = {ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN},
-  year = {2022},
+  year = {2023},
 }
 ```
+
+[Convert to any Bibliography Format](https://bibtex.online/)
 
 2022 © Taleon, Elizalde, Rubinos (BSCS4A) - West Visayas State University - College of Information and Communications Technology. All Rights Reserved.
