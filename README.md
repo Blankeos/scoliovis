@@ -1,6 +1,6 @@
 ![preview](/preview.png)
 
-<h3 align="center">ScolioVis</h3>
+<h3 align="center">🦴 ScolioVis 🦴</h3>
 <p align="center">
   Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN
 </p>
@@ -80,6 +80,8 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 
 ## Cite Our Project
 
+[Convert the following `bibtex` to any format (e.g. APA, MLA, Chicago)](https://bibtex.online/)
+
 ```bibtex
 @article{ScolioVis,
   author = {Taleon, Carlo Antonio and Elizalde, Glecy and Rubinos, Christopher Joseph},
@@ -88,6 +90,5 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 }
 ```
 
-[Convert to any Bibliography Format](https://bibtex.online/)
-
+<br />
 2022 © Taleon, Elizalde, Rubinos (BSCS4A) - West Visayas State University - College of Information and Communications Technology. All Rights Reserved.
