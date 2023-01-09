@@ -1,15 +1,16 @@
 ![preview](/preview.png)
 
-<h3 align="center">🦴 ScolioVis 🦴</h3>
+<h3 align="center">✨ ScolioVis ✨</h3>
 <p align="center">
   Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN
 </p>
+<p align="center"><a href="https://scoliovis.app/">https://scoliovis.app</a></p>
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
-    <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+    <img alt="Awesome Badge" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
   </a>
   <a href="https://github.com/ossu/computer-science">
-	<img alt="Open Source Society University - Computer Science" src="vercel_badge_custom.png">
+	<img alt="Vercel Badge Custom" src="vercel_badge_custom.png">
   </a>
 </p>
 
