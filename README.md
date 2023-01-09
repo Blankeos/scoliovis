@@ -13,7 +13,7 @@
   </a>
 </p>
 
-## Summary
+## 📖 Summary
 
 This repository serves as the compiled package of our undergraduate research for West Visayas State University - College of Information and Communications Technology entitled: **_"ScolioVis:
 Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN"_**
@@ -26,16 +26,18 @@ In this repo, you can:
 - [x] Try running our project locally.
 - [x] Recreate our research/project.
 
-## Contents
+## 📑 Contents
 
-- [About](#about)
-- [Repositories](#repositories)
-- [Colab Notebooks](#colab-notebooks)
-- [Models](#models)
-- [Setup Instructions](#setup-instructions)
-- [Important References](#important-references)
+- [📕 About](#📕-about)
+- [⚙ Repositories](#⚙-source-repositories)
+- [📒 Colab Notebooks](#📒-colab-notebooks)
+- [🧠 Models](#🧠-models)
+- [🧰 Setup Instructions](#🧰-setup-instructions)
+- [📜 Important References](#📜-important-references)
+- [🏆 Acknowledgements](#🏆-acknowledgements)
+- [✍ Cite our Project](#✍-cite-our-project)
 
-## About
+## 📕 About
 
 ScolioVis is a tool for automatically measuring the Cobb Angle—the standard measurement to assess Scoliosis. We harness the power of computer vision and machine learning to extract the cobb angles of an anterior-posterior Spine x-ray image. We built this application from the ground-up to an actual implementation in a usable web app.
 
@@ -43,32 +45,32 @@ We trained a Keypoint RCNN model on the [SpineWeb Dataset 16](http://spineweb.di
 
 A live deployed version of the application is available at [scoliovis.app](https://scoliovis.app/).
 
-## Source Repositories
+## ⚙ Source Repositories
 
 1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repo
 2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repo
 3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
 
-## Colab Notebooks
+## 📒 Colab Notebooks
 
 1. [Dataset Preprocessing for Keypoint RCNN](https://colab.research.google.com/drive/1Rlt43PWo6NYREuDsGT8K5tRg5QqfFdVc?usp=sharing)
 1. [Keypoint RCNN Training](https://colab.research.google.com/drive/1aaTWt2rZ-M7YlqIus7aC-84SorjNwl8G?usp=sharing)
 1. [Cobb Angle Calculation](https://colab.research.google.com/drive/1Cm32oftsMpsqMH5kLHgr0RtsfLAfiJnF?usp=sharing)
 
-## Models
+## 🧠 Models
 
 1. release/yolov5-detection.pt
 2. release/keypointsrcnn-weights.pt
 
-## Setup Instructions
+## 🧰 Setup Instructions
 
 Go to [/src](/src) for instructions on how to setup the project on your machine.
 
-## Important References
+## 📜 Important References
 
 > Wu, H., Bailey, Chris., Rasoulinejad, Parham., and Li, S., 2017.Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet. Medical Image Computing and Computer Assisted Intervention:127-135. http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf
 
-## Acknowledgements
+## 🏆 Acknowledgements
 
 - [👨‍🏫 Dr. Frank I. Elijorde](https://scholar.google.com.ph/citations?user=MbegV1wAAAAJ&hl=en) - Our ever-supportive Thesis Adviser.
 - [🤵 Dr. Bobby D. Gerardo](https://scholar.google.com.ph/citations?user=JNlh9WMAAAAJ&hl=en) - Our ever-supportive Thesis Co-Adviser.
@@ -78,7 +80,7 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 - 👩‍⚕️ Dra. Jocelyn F. Villanueva - for her expertise in radiology.
 - 👨‍⚕️ Dr. Christopher Barrera - for his expertise in radiology.
 
-## Cite Our Project
+## ✍ Cite Our Project
 
 [Convert the following `bibtex` to any format (e.g. APA, MLA, Chicago)](https://bibtex.online/)
 
