@@ -73,13 +73,23 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 
 ## 🏆 Acknowledgements
 
-- [👨‍🏫 Dr. Frank I. Elijorde](https://scholar.google.com.ph/citations?user=MbegV1wAAAAJ&hl=en) - Our ever-supportive Thesis Adviser.
+| Name                                                                                        | Contributions                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [👨‍🏫 Dr. Frank I. Elijorde](https://scholar.google.com.ph/citations?user=MbegV1wAAAAJ&hl=en) | Our ever-supportive Thesis Adviser.                                                                                                                                           |
+| [🤵 Dr. Bobby D. Gerardo](https://scholar.google.com.ph/citations?user=JNlh9WMAAAAJ&hl=en)  | Our ever-supportive Thesis Co-Adviser.                                                                                                                                        |
+| [👨‍🔬 Dr. Shuo Li](http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf)        | For giving us access to the [SpineWeb Dataset 16](http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets#Dataset_16.3A_609_spinal_anterior-posterior_x-ray_images). |
+| [👩‍💼 Dr. Julie Ann Salido](https://scholar.google.com/citations?user=xeoUxA0AAAAJ&hl=en)     | For her expertise in computer vision research.                                                                                                                                |
+| [👨‍💼 Mr. Paolo Hilado](https://www.researchgate.net/profile/Paolo-Hilado-2)                  | For his expertise in data science research.                                                                                                                                   |
+| 👩‍⚕️ Dra. Jocelyn F. Villanueva                                                               | For her expertise in radiology.                                                                                                                                               |
+| 👨‍⚕️ Dr. Christopher Barrera                                                                  | For his expertise in radiology.                                                                                                                                               |
+
+<!-- - [👨‍🏫 Dr. Frank I. Elijorde](https://scholar.google.com.ph/citations?user=MbegV1wAAAAJ&hl=en) - Our ever-supportive Thesis Adviser.
 - [🤵 Dr. Bobby D. Gerardo](https://scholar.google.com.ph/citations?user=JNlh9WMAAAAJ&hl=en) - Our ever-supportive Thesis Co-Adviser.
 - [👨‍🔬 Dr. Shuo Li](http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf) - for giving us access to the [SpineWeb Dataset 16](http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets#Dataset_16.3A_609_spinal_anterior-posterior_x-ray_images)
 - [👩‍💼 Dr. Julie Ann Salido](https://scholar.google.com/citations?user=xeoUxA0AAAAJ&hl=en) - for her expertise in computer vision research.
 - [👨‍💼 Mr. Paolo Hilado](https://www.researchgate.net/profile/Paolo-Hilado-2) - for his expertise in data science research.
 - 👩‍⚕️ Dra. Jocelyn F. Villanueva - for her expertise in radiology.
-- 👨‍⚕️ Dr. Christopher Barrera - for his expertise in radiology.
+- 👨‍⚕️ Dr. Christopher Barrera - for his expertise in radiology. -->
 
 ## ✍ Cite Our Project
 
