@@ -40,9 +40,9 @@ In this repo, you can:
 
 ## 📕 About
 
-ScolioVis is a tool for automatically measuring the Cobb Angle—the standard measurement to assess Scoliosis. We harness the power of computer vision and machine learning to extract the cobb angles of an anterior-posterior Spine x-ray image. We built this application from the ground-up to an actual implementation in a usable web app.
+**ScolioVis** is a tool for automatically measuring the Cobb Angle—the standard measurement to assess Scoliosis. We harness the power of computer vision and machine learning to extract the cobb angles of an anterior-posterior Spine x-ray image. We built this application from the ground-up to an actual implementation in a usable web app.
 
-We trained a Keypoint RCNN model on the [SpineWeb Dataset 16](http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets#Dataset_16.3A_609_spinal_anterior-posterior_x-ray_images). Boasting a performance of 93% AP at IoU=0.50 on object detections and 57% AP at IoU=0.50 on keypoint detections. The dataset is also part of the [Accurate Automated Spinal Curvature Estimation (AASCE) 2019 Grand Challenge](https://aasce19.grand-challenge.org/Task/). Atlhough we aren't competing, using the performance metric of the challenge, we have achieved an SMAPE of 8.97 in cobb angle calculation which means ScolioVis as a whole is able to predict cobb angles at 91.03% accuracy.
+We trained a Keypoint RCNN model on the [SpineWeb Dataset 16](http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets#Dataset_16.3A_609_spinal_anterior-posterior_x-ray_images). Boasting a performance of 93% AP at IoU=0.50 on object detections and 57% AP at IoU=0.50 on keypoint detections. The dataset is also part of the [Accurate Automated Spinal Curvature Estimation (AASCE) 2019 Grand Challenge](https://aasce19.grand-challenge.org/Task/). Atlhough we aren't competing, using the performance metric of the challenge, we have achieved an **SMAPE of 8.97** in cobb angle calculation which means ScolioVis as a whole is able to predict cobb angles at **91.03% accuracy**.
 
 A live deployed version of the application is available at [scoliovis.app](https://scoliovis.app/).
 
@@ -65,7 +65,7 @@ A live deployed version of the application is available at [scoliovis.app](https
 
 ## 🧰 Setup Instructions
 
-Go to [/src](/src) for instructions on how to setup the project on your machine.
+Go to [/src](/src) for instructions on how to setup this project on your machine.
 
 ## 📜 Important References
 
@@ -93,13 +93,18 @@ Go to [/src](/src) for instructions on how to setup the project on your machine.
 
 ## ✍ Cite Our Project
 
-[Convert the following `bibtex` to any format (e.g. APA, MLA, Chicago)](https://bibtex.online/)
+Convert the following `bibtex` to
+<a href="https://bibtex.online/?bibtex=%22@article{article,%20type={Bachelor%27s%20Thesis},%20author%20=%20{Taleon,%20Carlo%20Antonio%20and%20Elizalde,%20Glecy%20and%20Rubinos,%20Christopher%20Joseph},%20title%20=%20{ScolioVis:%20Automated%20Cobb%20Angle%20Measurement%20on%20Anterior-Posterior%20Spine%20X-Rays%20using%20Multi-Instance%20Keypoint%20Detection%20with%20Keypoint%20RCNN},%20journal%20=%20{West%20Visayas%20State%20University%20College%20of%20Information%20and%20Communications%20Technology},%20address%20=%20{La%20Paz,%20Iloilo%20City,%20Iloilo,%20Philippines},%20year%20=%20{2023}%20}%22&format=apa">APA</a> | <a href="https://bibtex.online/?bibtex=%22@article{article,%20type={Bachelor%27s%20Thesis},%20author%20=%20{Taleon,%20Carlo%20Antonio%20and%20Elizalde,%20Glecy%20and%20Rubinos,%20Christopher%20Joseph},%20title%20=%20{ScolioVis:%20Automated%20Cobb%20Angle%20Measurement%20on%20Anterior-Posterior%20Spine%20X-Rays%20using%20Multi-Instance%20Keypoint%20Detection%20with%20Keypoint%20RCNN},%20journal%20=%20{West%20Visayas%20State%20University%20College%20of%20Information%20and%20Communications%20Technology},%20address%20=%20{La%20Paz,%20Iloilo%20City,%20Iloilo,%20Philippines},%20year%20=%20{2023}%20}%22&format=mla">MLA</a>
+(Credits to [bibtex.online](https://bibtex.online))
 
 ```bibtex
-@article{ScolioVis,
+@article{article,
+  type={Bachelor's Thesis},
   author = {Taleon, Carlo Antonio and Elizalde, Glecy and Rubinos, Christopher Joseph},
   title = {ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN},
-  year = {2023},
+  journal = {West Visayas State University College of Information and Communications Technology},
+  address = {La Paz, Iloilo City, Iloilo, Philippines},
+  year = {2023}
 }
 ```
 
