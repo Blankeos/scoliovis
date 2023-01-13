@@ -16,6 +16,8 @@
 
 ## 📖 Summary
 
+![demo](/demo.gif)
+
 This repository serves as the compiled package of our undergraduate research for West Visayas State University - College of Information and Communications Technology entitled: **_"ScolioVis:
 Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN"_**
 
