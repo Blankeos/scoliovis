@@ -2,13 +2,13 @@
 
 The `src` directory contains code to build the software. Our code is split into 3 different repositories: `scoliovis-web`, `scoliovis-api`, and `scoliovis-training`.
 
-## Source Repositories
+## ⚙ Source Repositories
 
 1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repository (NextJS, React, Typescript)
 2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository (FastAPI, PyTorch)
 3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository (Colab, PyTorch)
 
-## Setup Instructions
+## 🧰 Setup Instructions
 
 You have 2 options for setting up the project:
 
