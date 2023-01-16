@@ -71,7 +71,7 @@ Go to [/src](/src) for instructions on how to setup this project on your machine
 
 ## 📜 Important References
 
-> Wu, H., Bailey, Chris., Rasoulinejad, Parham., and Li, S., 2017.Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet. Medical Image Computing and Computer Assisted Intervention:127-135. http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf
+> Wu, H., Bailey, Chris., Rasoulinejad, Parham., and Li, S., 2017.Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet. Medical Image Computing and Computer Assisted Intervention:127-135. Retrieved from http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf
 
 ## 🏆 Acknowledgements
 
