@@ -4,8 +4,8 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## ⚙ Source Repositories
 
-1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repository (NextJS, React, Typescript)
-2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository (FastAPI, PyTorch)
+1. `🌎` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repository (NextJS, React, Typescript)
+2. `🧠` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository (FastAPI, PyTorch)
 3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository (Colab, PyTorch)
 
 ## 🧰 Setup Instructions
