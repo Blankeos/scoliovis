@@ -31,7 +31,7 @@ In this repo, you can:
 
 ## 📑 Contents
 
-- [📕 About](#📕-about)
+- [:book: About](#📖-about)
 - [🧰 Setup Instructions](#🧰-setup-instructions)
 - [📒 Colab Notebooks](#📒-colab-notebooks)
 - [🧠 Models](#🧠-models)
@@ -39,7 +39,7 @@ In this repo, you can:
 - [🏆 Acknowledgements](#🏆-acknowledgements)
 - [✍ Cite our Project](#cite-our-project)
 
-## 📕 About
+## :book: About
 
 **ScolioVis** is a tool for automatically measuring the Cobb Angle—the standard measurement to assess Scoliosis. We harness the power of computer vision and machine learning to extract the cobb angles of an anterior-posterior Spine x-ray image. We built this application from the ground-up to an actual implementation in a usable web app.
 
