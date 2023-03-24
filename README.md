@@ -31,7 +31,7 @@ In this repo, you can:
 
 ## 📑 Contents
 
-- [:book: About](#📖-about)
+- [:book: About](#:book:-about)
 - [🧰 Setup Instructions](#🧰-setup-instructions)
 - [📒 Colab Notebooks](#📒-colab-notebooks)
 - [🧠 Models](#🧠-models)
