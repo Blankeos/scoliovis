@@ -32,12 +32,12 @@ In this repo, you can:
 ## 📑 Contents
 
 - [:book: About](#book-about)
-- [🧰 Setup Instructions](#🧰-setup-instructions)
-- [📒 Colab Notebooks](#📒-colab-notebooks)
-- [🧠 Models](#🧠-models)
-- [📜 Important References](#📜-important-references)
-- [🏆 Acknowledgements](#🏆-acknowledgements)
-- [✍ Cite our Project](#cite-our-project)
+- [:toolbox: Setup Instructions](#toolbox-setup-instructions)
+- [:ledger: Colab Notebooks](#ledger-colab-notebooks)
+- [:brain: Models](#brain-models)
+- [:scroll: Important References](#scroll-important-references)
+- [:trophy: Acknowledgements](#trophy-acknowledgements)
+- [:writing_hand: Cite our Project](#writing_hand-cite-our-project)
 
 ## :book: About
 
@@ -47,7 +47,7 @@ We trained a Keypoint RCNN model on the [SpineWeb Dataset 16](http://spineweb.di
 
 A live deployed version of the application is available at [scoliovis.app](https://scoliovis.app/).
 
-## 🧰 Setup Instructions
+## :toolbox: Setup Instructions
 
 👉 Go to [/src](/src) for detailed instructions on how to setup this project on your machine.
 
@@ -57,22 +57,22 @@ Source Repositories:
 2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repo
 3. `🏋️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
 
-## 📒 Colab Notebooks
+## :ledger: Colab Notebooks
 
 1. [Dataset Preprocessing for Keypoint RCNN](https://colab.research.google.com/drive/1Rlt43PWo6NYREuDsGT8K5tRg5QqfFdVc?usp=sharing)
 1. [Keypoint RCNN Training](https://colab.research.google.com/drive/1aaTWt2rZ-M7YlqIus7aC-84SorjNwl8G?usp=sharing)
 1. [Cobb Angle Calculation](https://colab.research.google.com/drive/1Cm32oftsMpsqMH5kLHgr0RtsfLAfiJnF?usp=sharing)
 
-## 🧠 Models
+## :brain: Models
 
 1. release/yolov5-detection.pt
 2. release/keypointsrcnn-weights.pt
 
-## 📜 Important References
+## :scroll: Important References
 
 > Wu, H., Bailey, Chris., Rasoulinejad, Parham., and Li, S., 2017.Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet. Medical Image Computing and Computer Assisted Intervention:127-135. Retrieved from http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf
 
-## 🏆 Acknowledgements
+## :trophy: Acknowledgements
 
 | Name                                                                                        | Contributions                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -92,7 +92,7 @@ Source Repositories:
 - 👩‍⚕️ Dra. Jocelyn F. Villanueva - for her expertise in radiology.
 - 👨‍⚕️ Dr. Christopher Barrera - for his expertise in radiology. -->
 
-## Cite Our Project
+## :writing_hand: Cite Our Project
 
 Convert the following `bibtex` to
 <a href="https://bibtex.online/?bibtex=%22@article{article,%20type={Bachelor%27s%20Thesis},%20author%20=%20{Taleon,%20Carlo%20Antonio%20and%20Elizalde,%20Glecy%20and%20Rubinos,%20Christopher%20Joseph},%20title%20=%20{ScolioVis:%20Automated%20Cobb%20Angle%20Measurement%20on%20Anterior-Posterior%20Spine%20X-Rays%20using%20Multi-Instance%20Keypoint%20Detection%20with%20Keypoint%20RCNN},%20journal%20=%20{West%20Visayas%20State%20University%20College%20of%20Information%20and%20Communications%20Technology},%20address%20=%20{La%20Paz,%20Iloilo%20City,%20Iloilo,%20Philippines},%20year%20=%20{2023}%20}%22&format=apa">APA</a> | <a href="https://bibtex.online/?bibtex=%22@article{article,%20type={Bachelor%27s%20Thesis},%20author%20=%20{Taleon,%20Carlo%20Antonio%20and%20Elizalde,%20Glecy%20and%20Rubinos,%20Christopher%20Joseph},%20title%20=%20{ScolioVis:%20Automated%20Cobb%20Angle%20Measurement%20on%20Anterior-Posterior%20Spine%20X-Rays%20using%20Multi-Instance%20Keypoint%20Detection%20with%20Keypoint%20RCNN},%20journal%20=%20{West%20Visayas%20State%20University%20College%20of%20Information%20and%20Communications%20Technology},%20address%20=%20{La%20Paz,%20Iloilo%20City,%20Iloilo,%20Philippines},%20year%20=%20{2023}%20}%22&format=mla">MLA</a>
