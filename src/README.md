@@ -2,13 +2,11 @@
 
 The `src` directory contains code to build the software. Our code is split into 3 different repositories: `scoliovis-web`, `scoliovis-api`, and `scoliovis-training`.
 
-## ⚙ Source Repositories
-
 1. `🎨` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End
 2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository
 3. `🏋️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
 
-## 🧰 Setup Instructions (For Evaluators)
+## :toolbox: Setup Instructions (For Evaluators)
 
 > For **Evaluators** of this project that only need to run the app, please refer to the first option.
 
@@ -62,7 +60,7 @@ The `src` directory contains code to build the software. Our code is split into 
    (venv) D:\scoliovis-api> uvicorn main:app
    ```
 
-## 🧰 Setup Instructions (For Researchers)
+## :toolbox: Setup Instructions (For Researchers)
 
 > For **Researchers** interested in improving upon or recreating our project, we recommend the second option to help you train the model from the beginning, the same way we did.
 
@@ -70,6 +68,6 @@ The `src` directory contains code to build the software. Our code is split into 
 
 2. Save and rename the model to `keypointsrcnn_weights.pt`.
 
-3. Follow the steps for [running the project on your local machine](#a-run-the-project-on-your-local-machine). But don't run the backend server yet.
+3. Follow the [setup instructions for evaluators](#toolbox-setup-instructions-for-evaluators).
 
-4. Move `keypointsrcnn_weights.pt` to the `scoliovis-api/models/` directory.
+4. Before running the **scoliovis-api**, move `keypointsrcnn_weights.pt`to the`scoliovis-api/models/` directory.
