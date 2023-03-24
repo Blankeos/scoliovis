@@ -32,13 +32,12 @@ In this repo, you can:
 ## 📑 Contents
 
 - [📕 About](#📕-about)
-- [⚙ Repositories](#⚙-source-repositories)
+- [🧰 Setup Instructions](#🧰-setup-instructions)
 - [📒 Colab Notebooks](#📒-colab-notebooks)
 - [🧠 Models](#🧠-models)
-- [🧰 Setup Instructions](#🧰-setup-instructions)
 - [📜 Important References](#📜-important-references)
 - [🏆 Acknowledgements](#🏆-acknowledgements)
-- [✍ Cite our Project](#✍-cite-our-project)
+- [✍ Cite our Project](#cite-our-project)
 
 ## 📕 About
 
@@ -48,11 +47,15 @@ We trained a Keypoint RCNN model on the [SpineWeb Dataset 16](http://spineweb.di
 
 A live deployed version of the application is available at [scoliovis.app](https://scoliovis.app/).
 
-## ⚙ Source Repositories
+## 🧰 Setup Instructions
 
-1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repo
+👉 Go to [/src](/src) for detailed instructions on how to setup this project on your machine.
+
+Source Repositories:
+
+1. `🎨` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repo
 2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repo
-3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
+3. `🏋️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
 
 ## 📒 Colab Notebooks
 
@@ -64,10 +67,6 @@ A live deployed version of the application is available at [scoliovis.app](https
 
 1. release/yolov5-detection.pt
 2. release/keypointsrcnn-weights.pt
-
-## 🧰 Setup Instructions
-
-Go to [/src](/src) for instructions on how to setup this project on your machine.
 
 ## 📜 Important References
 
@@ -93,7 +92,7 @@ Go to [/src](/src) for instructions on how to setup this project on your machine
 - 👩‍⚕️ Dra. Jocelyn F. Villanueva - for her expertise in radiology.
 - 👨‍⚕️ Dr. Christopher Barrera - for his expertise in radiology. -->
 
-## ✍ Cite Our Project
+## Cite Our Project
 
 Convert the following `bibtex` to
 <a href="https://bibtex.online/?bibtex=%22@article{article,%20type={Bachelor%27s%20Thesis},%20author%20=%20{Taleon,%20Carlo%20Antonio%20and%20Elizalde,%20Glecy%20and%20Rubinos,%20Christopher%20Joseph},%20title%20=%20{ScolioVis:%20Automated%20Cobb%20Angle%20Measurement%20on%20Anterior-Posterior%20Spine%20X-Rays%20using%20Multi-Instance%20Keypoint%20Detection%20with%20Keypoint%20RCNN},%20journal%20=%20{West%20Visayas%20State%20University%20College%20of%20Information%20and%20Communications%20Technology},%20address%20=%20{La%20Paz,%20Iloilo%20City,%20Iloilo,%20Philippines},%20year%20=%20{2023}%20}%22&format=apa">APA</a> | <a href="https://bibtex.online/?bibtex=%22@article{article,%20type={Bachelor%27s%20Thesis},%20author%20=%20{Taleon,%20Carlo%20Antonio%20and%20Elizalde,%20Glecy%20and%20Rubinos,%20Christopher%20Joseph},%20title%20=%20{ScolioVis:%20Automated%20Cobb%20Angle%20Measurement%20on%20Anterior-Posterior%20Spine%20X-Rays%20using%20Multi-Instance%20Keypoint%20Detection%20with%20Keypoint%20RCNN},%20journal%20=%20{West%20Visayas%20State%20University%20College%20of%20Information%20and%20Communications%20Technology},%20address%20=%20{La%20Paz,%20Iloilo%20City,%20Iloilo,%20Philippines},%20year%20=%20{2023}%20}%22&format=mla">MLA</a>

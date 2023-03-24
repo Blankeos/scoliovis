@@ -4,19 +4,13 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## ⚙ Source Repositories
 
-1. `🔏` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End Repository (NextJS, React, Typescript)
-2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository (FastAPI, PyTorch)
-3. `⛹️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository (Colab, PyTorch)
+1. `🎨` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End
+2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository
+3. `🏋️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
 
-## 🧰 Setup Instructions
+## 🧰 Setup Instructions (For Evaluators)
 
-You have 2 options for setting up the project:
-
-> a. For **Evaluators** of this project that only need to run the app, please refer to the first option.
-
-> b. For **Researchers** interested in improving upon or recreating our project, we recommend the second option to help you train the model from the beginning, the same way we did.
-
-### a. Run the project on your local machine.
+> For **Evaluators** of this project that only need to run the app, please refer to the first option.
 
 1. Make sure your local machine has installed the following requirements:
 
@@ -25,7 +19,7 @@ You have 2 options for setting up the project:
    - [PNPM](https://pnpm.io/installation) `npm install --global pnpm`
    - [Python 3.9.6 or higher](https://www.python.org/downloads/)
 
-2. Setup the frontend: `scoliovis-web`
+2. Setup the frontend: `🎨 scoliovis-web`
 
    ```sh
    # 1. Clone repo
@@ -39,7 +33,7 @@ You have 2 options for setting up the project:
    D:\scoliovis-web> pnpm dev
    ```
 
-3. Setup the backend `scoliovis-api`
+3. Setup the backend `⚡ scoliovis-api`
 
    ```sh
    # 1. Clone repo
@@ -58,16 +52,21 @@ You have 2 options for setting up the project:
    /d/scoliovis-api> source venv/Scripts/activate
    (venv) /d/scoliovis-api> # your cursor should look like this
 
-   # 5. Install dependencies
+   # 4. Install dependencies
    (venv) D:\scoliovis-web> pip install -r requirements.txt
+
+   # 5. Download keypointsrcnn_weights and put inside scoliovis-api/models:
+   https://github.com/Blankeos/scoliovis-training/releases
 
    # 6. Run the server on http://localhost:8000
    (venv) D:\scoliovis-api> uvicorn main:app
    ```
 
-### b. Reproduce the project from scratch.
+## 🧰 Setup Instructions (For Researchers)
 
-1. Follow our instructions on training at [`scoliovis-training`](https://github.com/Blankeos/scoliovis-training)
+> For **Researchers** interested in improving upon or recreating our project, we recommend the second option to help you train the model from the beginning, the same way we did.
+
+1. Follow our instructions on training at [`🏋️‍♂️ scoliovis-training`](https://github.com/Blankeos/scoliovis-training)
 
 2. Save and rename the model to `keypointsrcnn_weights.pt`.
 
