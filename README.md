@@ -65,8 +65,8 @@ Source Repositories:
 
 ## :brain: Models
 
-1. release/yolov5-detection.pt
-2. release/keypointsrcnn-weights.pt
+- [scoliovis-training/releases/keypointsrcnn-weights.pt](https://github.com/Blankeos/scoliovis-training/releases/download/latest/keypointsrcnn_weights.pt)
+<!-- 2. releases/yolov5-detection.pt _(obsolete)_ -->
 
 ## :scroll: Important References
 
@@ -110,4 +110,4 @@ Convert the following `bibtex` to
 ```
 
 <br />
-2022 © Taleon, Elizalde, Rubinos (BSCS4A) - West Visayas State University - College of Information and Communications Technology. All Rights Reserved.
+2023 © Taleon, Elizalde, Rubinos (BSCS4A) - West Visayas State University - College of Information and Communications Technology. All Rights Reserved.
