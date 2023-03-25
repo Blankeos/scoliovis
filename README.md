@@ -70,7 +70,11 @@ Source Repositories:
 
 ## :scroll: Important References
 
-> Wu, H., Bailey, Chris., Rasoulinejad, Parham., and Li, S., 2017.Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet. Medical Image Computing and Computer Assisted Intervention:127-135. Retrieved from http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf
+- Any Paper that uses the SpineWeb Dataset 16, must cite the following:
+
+  > Wu, H., Bailey, Chris., Rasoulinejad, Parham., and Li, S., 2017.Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet. Medical Image Computing and Computer Assisted Intervention:127-135. Retrieved from http://www.digitalimaginggroup.ca/members/Shuo/MICCAIAutomatic.pdf
+
+- Our `📄 Thesis Manuscript` and `📘 User Manual` are available on [/doc](/doc).
 
 ## :trophy: Acknowledgements
 
