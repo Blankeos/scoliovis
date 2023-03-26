@@ -8,7 +8,7 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## :toolbox: Setup Instructions (For Evaluators)
 
-> For **Evaluators** of this project that only need to run the app, please refer to the first option.
+> For **Evaluators** of this project that only need to run the app, refer to this section.
 
 1. Make sure your local machine has installed the following requirements:
 
@@ -62,7 +62,7 @@ The `src` directory contains code to build the software. Our code is split into 
 
 ## :toolbox: Setup Instructions (For Researchers)
 
-> For **Researchers** interested in improving upon or recreating our project, we recommend the second option to help you train the model from the beginning, the same way we did.
+> For **Researchers** interested in improving upon or recreating our project, we recommend reading this section to help you train the model from the beginning, the same way we did.
 
 1. Follow our instructions on training at [`🏋️‍♂️ scoliovis-training`](https://github.com/Blankeos/scoliovis-training)
 

@@ -6,10 +6,10 @@
 </p>
 <p align="center"><a href="https://scoliovis.app/">https://scoliovis.app</a></p>
 <p align="center">
-  <a href="https://github.com/sindresorhus/awesome">
+  <!-- <a href="https://github.com/sindresorhus/awesome"> -->
     <img alt="Awesome Badge" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" height="20">
-  </a>
-  <a href="https://github.com/ossu/computer-science">
+  <!-- </a> -->
+  <a href="https://scoliovis.app">
 	<img alt="Vercel Badge Custom" src="assets/vercel_status.png" height="20">
   </a>
 </p>
