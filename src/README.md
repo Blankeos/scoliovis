@@ -1,10 +1,6 @@
 # ScolioVis `/src`
 
-The `src` directory contains code to build the software. Our code is split into 3 different repositories: `scoliovis-web`, `scoliovis-api`, and `scoliovis-training`.
-
-1. `🎨` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End
-2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository
-3. `🏋️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository
+The `src` directory contains code to build the software. Here, you can find the `frontend` and `backend` folders.
 
 ## :toolbox: Setup Instructions (For Evaluators)
 
@@ -17,43 +13,49 @@ The `src` directory contains code to build the software. Our code is split into 
    - [PNPM](https://pnpm.io/installation) `npm install --global pnpm`
    - [Python 3.9.6 or higher](https://www.python.org/downloads/)
 
-2. Setup the frontend: `🎨 scoliovis-web`
+2. Clone this repository
 
    ```sh
-   # 1. Clone repo
-   D:> git clone https://github.com/blankeos/scoliovis-web.git
-   D:> cd scoliovis-web
-
-   # 2. Install dependencies
-   D:\scoliovis-web> pnpm install
-
-   # 3. Run the server on http://localhost:3000
-   D:\scoliovis-web> pnpm dev
+   D:> git clone https://github.com/blankeos/scoliovis.git
+   D:> cd scoliovis\src
    ```
 
-3. Setup the backend `⚡ scoliovis-api`
+3. Setup the frontend: `🎨 scoliovis-web`
 
    ```sh
-   # 1. Clone repo
-   D:> git clone https://github.com/blankeos/scoliovis-api.git
-   D:> cd scoliovis-api
+   # 1. Go to frontend
+   D:\scoliovis\src> cd frontend
+
+   # 2. Install dependencies
+   D:\scoliovis\src\frontend> pnpm install
+
+   # 3. Run the server on http://localhost:3000
+   D:\scoliovis\src\frontend> pnpm build
+   D:\scoliovis\src\frontend> pnpm start
+   ```
+
+4. Setup the backend `⚡ scoliovis-api`
+
+   ```sh
+   # 1. Go to backend
+   D:\scoliovis\src> cd backend
 
    # 2. Create a virtual environment
-   D:\scoliovis-api> python -m venv venv
+   D:\scoliovis\src\backend> python -m venv venv
 
    # 3. Activate virtual environment
    # - If you're on Windows Command Prompt
-   D:\scoliovis-api>venv\Scripts\activate
-   (venv) D:\scoliovis-api> # your cursor should look like this
+   D:\scoliovis\src\backend>venv\Scripts\activate
+   (venv) D:\scoliovis\src\backend> # your cursor should look like this
 
    # - If you're on Mac or Git Bash
-   /d/scoliovis-api> source venv/Scripts/activate
-   (venv) /d/scoliovis-api> # your cursor should look like this
+   /d/scoliovis/src/backend> source venv/Scripts/activate
+   (venv) /d/scoliovis/src/backend> # your cursor should look like this
 
    # 4. Install dependencies
-   (venv) D:\scoliovis-web> pip install -r requirements.txt
+   (venv) D:\scoliovis\src\backend> pip install -r requirements.txt
 
-   # 5. Download keypointsrcnn_weights and put inside scoliovis-api/models:
+   # 5. Download keypointsrcnn_weights and put inside scoliovis\src\backend\models:
    https://github.com/Blankeos/scoliovis-training/releases
 
    # 6. Run the server on http://localhost:8000
@@ -71,3 +73,11 @@ The `src` directory contains code to build the software. Our code is split into 
 3. Follow the [setup instructions for evaluators](#toolbox-setup-instructions-for-evaluators).
 
 4. Before running the **scoliovis-api**, move `keypointsrcnn_weights.pt`to the`scoliovis-api/models/` directory.
+
+## ⚙ Source Repositories
+
+Aside from this `scoliovis` monorepo, we also split our code into 3 different repositories: `scoliovis-web`, `scoliovis-api`, and `scoliovis-training`. You can optionally play around with these if you'd like:
+
+1. `🎨` [scoliovis-web](https://github.com/Blankeos/scoliovis-web) - Front End
+2. `⚡` [scoliovis-api](https://github.com/Blankeos/scoliovis-api) - Back End Repository
+3. `🏋️‍♂️` [scoliovis-training](https://github.com/Blankeos/scoliovis-training) - Model Training Repository

@@ -1,0 +1,10 @@
+venv
+.deta
+__pycache__
+.detaignore
+scoliovis_segmentation_model.h5
+C AP test landmarks.csv
+C AP test boundingboxes.csv
+/data
+.env
+/models

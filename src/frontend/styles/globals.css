@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply font-manrope;
+}
+
+::selection {
+  color: #f5f3ff;
+  background: #a855f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* @apply "font-manrope"; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.will-change {
+  will-change: transform;
+}
+
+.fluid-container {
+  @apply max-w-5xl w-full mx-auto;
+}
+
+/* START: Tippy Stuff */
+
+/* Transparent THEME */
+.tippy-box[data-theme~="transparent"] {
+  background-color: transparent;
+  color: #0073f5;
+}
+
+.tippy-box[data-theme~="transparent"][data-placement^="top"]
+  > .tippy-arrow::before {
+  border-top-color: #0073f5;
+}
+.tippy-box[data-theme~="transparent"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: #0073f5;
+}
+.tippy-box[data-theme~="transparent"][data-placement^="left"]
+  > .tippy-arrow::before {
+  border-left-color: #0073f5;
+}
+.tippy-box[data-theme~="transparent"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: #0073f5;
+}
+
+/* Plain THEME */
+.tippy-box[data-theme~="plain-white"] {
+  background-color: white;
+  color: black;
+}
+
+.tippy-box[data-theme~="plain-white"][data-placement^="top"]
+  > .tippy-arrow::before {
+  border-top-color: white;
+}
+.tippy-box[data-theme~="plain-white"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: white;
+}
+.tippy-box[data-theme~="plain-white"][data-placement^="left"]
+  > .tippy-arrow::before {
+  border-left-color: white;
+}
+.tippy-box[data-theme~="plain-white"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: white;
+}
+/* END: Tippy Stuff */
+
+/* START: React-Player */
+.react-player {
+  position: absolute;
+  inset: 0;
+}
+/* END: React-Player */
+
+.hanging-text {
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+}
