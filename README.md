@@ -10,7 +10,7 @@
     <img alt="Awesome Badge" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" height="20">
   <!-- </a> -->
   <a href="https://scoliovis.app">
-	<img alt="Vercel Badge Custom" src="assets/vercel_status.png" height="20">
+	<img alt="Vercel Badge Custom" src="assets/vercel_status.svg" height="20">
   </a>
 </p>
 
