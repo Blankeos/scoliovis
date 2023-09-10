@@ -255,6 +255,11 @@ const Home: NextPage = () => {
             <div className="absolute bg-white h-1/2 bottom-0 left-0 right-0"></div>
             {/* Content */}
             <div className="relative fluid-container px-9">
+              <div className="absolute left-0 right-0 grid place-items-center bg-red-500">
+                <div className="absolute z-20 bg-primary px-5 py-1 rounded-full -top-4 text-white text-sm font-medium shadow-md">
+                  Watch our Video Reel
+                </div>
+              </div>
               <div
                 className="relative bg-gray-200 h-96 rounded-2xl shadow-xl overflow-hidden"
                 style={{
@@ -273,34 +278,27 @@ const Home: NextPage = () => {
                     className="relative"
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/_ES_iyG25fM?autoplay=1&rel=0&loop=1"
+                    src="https://www.youtube.com/embed/PDt4q7oFGHk?si=6WbXLdG68yzHLoyS&autoplay=1&rel=0&loop=1&playlist=PDt4q7oFGHk"
                     title="ScolioVis Demo"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   ></iframe>
                 ) : (
-                  <Tippy
-                    content="This video is a placeholder"
-                    followCursor
-                    plugins={[followCursor]}
-                    arrow={false}
+                  <button
+                    onClick={() => setVideoIsRendered(true)}
+                    className="group relative w-full h-full grid place-items-center hover:bg-purple-500 hover:bg-opacity-10 transition ease-out"
                   >
-                    <button
-                      onClick={() => setVideoIsRendered(true)}
-                      className="group relative w-full h-full grid place-items-center hover:bg-purple-500 hover:bg-opacity-10 transition ease-out"
-                    >
-                      <div className="absolute inset-0" />
-                      <div className="absolute inset-0 bg-white bg-opacity-20" />
-                      <span className="relative grid place-items-center">
-                        <span className="absolute bg-white w-10 h-10" />
-                        <PlayIcon
-                          size="5rem"
-                          className="relative text-primary drop-shadow-xl group-hover:drop-shadow-2xl transition group-hover:scale-105"
-                        />
-                      </span>
-                    </button>
-                  </Tippy>
+                    <div className="absolute inset-0" />
+                    <div className="absolute inset-0 bg-white bg-opacity-20" />
+                    <span className="relative grid place-items-center">
+                      <span className="absolute bg-white w-10 h-10" />
+                      <PlayIcon
+                        size="5rem"
+                        className="relative text-primary drop-shadow-xl group-hover:drop-shadow-2xl transition group-hover:scale-105"
+                      />
+                    </span>
+                  </button>
                 )}
               </div>
             </div>
